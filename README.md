@@ -1,1 +1,2 @@
 - neon kawaii to-do list with MIT license
+- for those who want to keep track things of the things you do in a cute way
