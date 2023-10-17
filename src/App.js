@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css'
+
+
 function App() {
   const [todos, setTodos] = useState([]);
   const [task, setTask] = useState('');
@@ -33,14 +35,14 @@ function App() {
 
   return (
     <div>
-      <h1>Neon Kawaii To-Do List</h1>
+      <h1>Neon かわいい To-Do List</h1>
       <div id="date-time">
         <p>{formattedDate}</p>
         <p>{formattedTime}</p>
       </div>
       <input
         type="text"
-        placeholder="Add a task"
+        placeholder=""
         value={task}
         onChange={(e) => setTask(e.target.value)}
       />
