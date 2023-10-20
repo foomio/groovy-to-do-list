@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 3000; // Set your desired port
+const port = process.env.PORT || 3001; // Set your desired port
 
 // Connect to MongoDB (replace with your MongoDB connection string)
 mongoose.connect('mongodb://localhost/todo_list', {
