@@ -36,7 +36,7 @@ The Neon Kawaii Todo List is designed to make managing your tasks a delightful e
 
 ## Getting Started
 
-To experience the Neon Kawaii Todo List, you can visit the live version of the app at [neonkawaiitodolist.dev](https://www.neonkawaiitodolist.dev). --stiil in dev
+
 
 If you'd like to explore the code and run the app locally, follow these steps:
 
