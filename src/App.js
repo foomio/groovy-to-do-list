@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css'
 import soundEffect from './assets/sounds/add.mp3';
-import Quotes from './Quotes';
+
 
 function App() {
   const [todos, setTodos] = useState([]); 
@@ -41,7 +41,7 @@ function App() {
   return (
     <div>
       <h1>Neon Groovy To-Do List</h1>
-      <Quotes />
+
       <div id="date-time">
         <p>{formattedDate}</p>
         <p>{formattedTime}</p>
