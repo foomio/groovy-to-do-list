@@ -18,6 +18,11 @@ body {
 
 }
 
+.quote-text {
+  color: limegreen;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.733);
+}
+
 #date-time p {
   font-size: 40px;
   margin: 5px;
