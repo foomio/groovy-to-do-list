@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Error';
-  src: url('assets/fonts/Error.ttf') format('truetype');
+  font-family: 'KeeponTruckin';
+  src: url('assets/fonts/KeeponTruckin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   background-color: black;
-  font-family: 'Error';
+  font-family: 'KeeponTruckin';
   color: hotpink;
  
 }
@@ -26,9 +26,9 @@ body {
 
 button {
   margin-top: 20px;
-  
+  font-family: 'KeeponTruckin';
   border-color:aqua ;
   background-color: limegreen; /* Change this to your desired default color */
   color: hotpink; /* Text color */
-  font-family: 'Error';
+
 }

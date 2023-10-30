@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css'
-
+import soundEffect from './assets/sounds/add.mp3';
 
 function App() {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState([]); 
   const [task, setTask] = useState('');
   const [currentDate, setCurrentDate] = useState(new Date());
+  const audioRef = useRef(null); // Add a ref for the audio element
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -21,6 +22,9 @@ function App() {
     if (task.trim() !== '') {
       setTodos([...todos, task]);
       setTask('');
+
+      audioRef.current.play(); //play audio when the task is added
+
     }
   };
 
@@ -35,7 +39,7 @@ function App() {
 
   return (
     <div>
-      <h1>Neon かわいい To-Do List</h1>
+      <h1>Neon Groovy To-Do List</h1>
       <div id="date-time">
         <p>{formattedDate}</p>
         <p>{formattedTime}</p>
@@ -46,7 +50,11 @@ function App() {
         value={task}
         onChange={(e) => setTask(e.target.value)}
       />
-      <button onClick={addTodo}>Add</button>
+      <button onClick={addTodo}>Add</button> 
+      <audio ref={audioRef}>
+        <source src={soundEffect} type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       <ul>
         {todos.map((todo, index) => (
           <li key={index}>

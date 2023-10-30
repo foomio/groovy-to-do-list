@@ -1,39 +1,13 @@
-# Neon Kawaii Todo List 🌈📝
+# Neon Groovy Todo List 🌈📝
 
-![Neon Kawaii Todo List Demo](demo.gif)
+![Neon Groovy Todo List Demo]
 
-Welcome to the Neon Kawaii Todo List, a fun and interactive way to manage your tasks with a touch of cuteness and style! This project combines the power of React for a dynamic user interface with AWS for backend services to create a vibrant and lively todo list. 🌟💻
+Welcome to the Neon Groovy Todo List, a fun and interactive way to manage your tasks with a touch of cuteness and style! This project combines the power of React for a dynamic user interface with AWS for backend services to create a vibrant and lively todo list. 🌟💻
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-The Neon Kawaii Todo List is designed to make managing your tasks a delightful experience. It brings together colorful and cute interactions, courtesy of React, and the reliability of AWS for backend functionalities. It's not just a todo list; it's a journey into the world of productivity with style. 🎈🎀
-
-## Features
-
-### 1. Neon Aesthetics
-- Enjoy a visually pleasing user interface with bright neon colors and kawaii-inspired animations. 🌈🌸
-
-### 2. Interactive Task Management
-- Add, edit, and delete tasks with ease.
-- Mark tasks as complete and watch them animate with joy! ✅🎉
-
-### 3. Task Categories
-- Organize your tasks into customizable categories, making it easy to group and manage your to-dos. 🗂️
-
-### 4. AWS Backend
-- Utilizes AWS services like AWS Lambda, API Gateway, and Amazon DynamoDB for a seamless and reliable backend experience. 🌐🛠️
-
-### 5. Synchronization
-- Your tasks are automatically synchronized across devices, allowing you to access your todo list from anywhere. 📲💻
-
+The Neon Groovy Todo List is designed to make managing your tasks a delightful experience.
 ## Getting Started
 
 
