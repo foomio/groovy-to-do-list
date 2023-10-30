@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001",
+
   "homepage": "https://kate3o.github.io/kawaii-to-do-list",
   "eslintConfig": {
     "extends": [
