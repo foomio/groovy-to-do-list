@@ -1,6 +1,5 @@
 # Neon Groovy Todo List 🌈📝
 
-![Neon Groovy Todo List Demo]
 
 Welcome to the Neon Groovy Todo List, a fun and interactive way to manage your tasks with a touch of cuteness and style! This project combines the power of React for a dynamic user interface with AWS for backend services to create a vibrant and lively todo list. 🌟💻
 
